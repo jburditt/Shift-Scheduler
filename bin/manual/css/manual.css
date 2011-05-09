@@ -1,0 +1,29 @@
+html {
+	height: 100%;
+}
+
+body {
+	font-family: Verdana, Tahoma, Arial, Helvetica, sans-serif;
+	font-size: .8em;
+	color: #333333;
+	height:100%;
+}
+
+td {
+	font-family: Verdana, Arial;
+	font-size:10px;
+}
+
+strong {
+	font-size:1.4em;
+}
+
+.error {
+	color:#FF0000;
+}
+
+.title {
+	font-weight: bold;
+	color: #000000;
+	font-size: 14px;
+}

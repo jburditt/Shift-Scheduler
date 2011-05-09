@@ -1,0 +1,112 @@
+body {
+	font-family: Verdana, Arial;
+	font-size:10px;
+}
+
+/* Tabs classes */
+
+.tabs {
+	float: left;
+	width: 100%;
+	line-height: normal;
+	background-image: url("../images/tabs/tabs_bg.gif");
+}
+
+.tabs ul {
+	margin: 0;
+	padding: 0 0 0;
+	list-style: none;
+}
+
+.tabs li {
+	float: left;
+	background: url("../images/tabs/tab_bg.gif") no-repeat left top;
+	margin: 0;
+	margin-left: 0;
+	margin-right: 2px;
+	padding: 0 0 0 10px;
+	line-height: 18px;
+}
+
+.tabs li.current {
+	background: url("../images/tabs/tab_sel_bg.gif") no-repeat left top;
+	margin-right: 2px;
+}
+
+.tabs span {
+	float: left;
+	display: block;
+	background: url("../images/tabs/tab_end.gif") no-repeat right top;
+	padding: 0px 10px 0 0;
+}
+
+.tabs .current span {
+	background: url("../images/tabs/tab_sel_end.gif") no-repeat right top;
+}
+
+.tabs a {
+	text-decoration: none;
+	font-family: Verdana, Arial;
+	font-size: 10px;
+}
+
+.tabs a:link, .tabs a:visited, .tabs a:hover {
+	color: black;
+}
+
+.tabs a:hover {
+}
+
+.tabs .current {
+}
+
+.tabs .current a, .tabs .current a:link, .tabs .current a:visited {
+}
+
+.panel_wrapper div.panel {
+	display: none;
+}
+
+.panel_wrapper div.current {
+	display: block;
+	width: 100%;
+	height: 400px;
+	overflow: visible; /* Should be auto but that breaks Safari */
+}
+
+.panel_wrapper {
+	border: 1px solid #919B9C;
+	border-top: 0px;
+	padding: 10px;
+	padding-top: 5px;
+	clear: both;
+	background-color: white;
+}
+
+fieldset {
+	font-family: Verdana, Arial;
+	font-size: 10px;
+	padding: 0;
+	margin: 0;
+	padding: 4px;
+}
+
+legend {
+	color: #2B6FB6;
+	font-weight: bold;
+}
+
+input {
+	font-family: Verdana, Arial;
+	font-size: 12px;
+	/*
+	border: 1px solid #919B9C;
+	background-color:#FFFFCC;
+	*/
+}	
+
+input:hover {
+	/*
+	border: 1px solid #FFCC33;
+	*/
+}

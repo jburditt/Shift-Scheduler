@@ -2,7 +2,8 @@
 SQLyog Ultimate v10.00 Beta1
 MySQL - 5.6.12-log : Database - jebediah_ss
 *********************************************************************
-*/
+*/
+
 
 /*!40101 SET NAMES utf8 */;
 
